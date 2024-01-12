@@ -2,11 +2,11 @@ import 'dart:convert';
 import 'package:crypto/crypto.dart' as crypto;
 import 'package:http/http.dart' as http;
 
-final String apiKey = 'Your API Key';
-final String apiSecret = 'Your API Secret';
+final String apiKey = '254a77c02181016c9668b3e33e92485f';
+final String apiSecret =
+    'b5bdce01207059c9c1665ec833153d303785bb4e9a87651a1c7dda3f1050a331';
 
-final String baseUrl = 'https://staging.mydocsy.com';
-// final String baseUrl = 'https://mydocsy.com' ;
+final String baseUrl = 'http://127.0.0.1:8080';
 
 String generateJWT(Map<String, dynamic> params) {
   params['timestamp'] = DateTime.now().millisecondsSinceEpoch;
