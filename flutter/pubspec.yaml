@@ -1,0 +1,10 @@
+name: your_project_name
+description: Your project description
+
+environment:
+  sdk: '>=2.12.0 <4.0.0'
+
+dependencies:
+  http: ^0.13.3
+  crypto: ^3.0.1
+# ... other configuration in your pubspec.yaml
