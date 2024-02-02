@@ -24,7 +24,7 @@ const Header = ({ onPress }) => {
       <View style={styles.titleContainer}>
         <Text style={styles.titleTextStyle}>Latest Mind Scores</Text>
       </View>
-      <View style={styles.emtyView} />
+      <View style={styles.lastView} />
     </View>
   );
 };
@@ -118,7 +118,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: '600',
   },
-  emtyView: {
+  lastView: {
     height: '100%',
     width: '20%',
   },
